@@ -1,5 +1,7 @@
-
+import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
+
 const Faq = () => {
   const faqs = [
     {
@@ -28,7 +30,7 @@ const Faq = () => {
 
   return (
     <>
-    <div className="flex xl:flex-row flex-col" id="faq">
+    <div className="flex xl:flex-row flex-col mt-20 mb-20" id="faq">
       <div className="bg-white flex flex-col justify-center items-center ">
         <div className="xl:w-[70%] xl:mt-28 mt-14 mb-5 bg-white rounded-lg flex text-md font-sans ">
           <span>👋</span>
@@ -46,35 +48,25 @@ const Faq = () => {
         </div>
       </div>
 
-      <div className="max-w-2xl mx-auto mt-8 w-[80%]">
-      <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
+      <div className="max-w-2xl mx-auto mt-32 w-[80%] ">
       {faqs.map((faq, index) => (
-        <div key={index} className="mb-4">
-          <div
-            className="flex items-center justify-between cursor-pointer"
-            onClick={() => toggleFAQ(index)}
-          >
-            <p className="text-2xl font-semibold">{faq.question}</p>
-            <svg
-              className={`w-6 h-6 ${activeIndex === index ? 'transform rotate-90' : ''}`}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
-          </div>
-          {activeIndex === index && (
-            <p className="text-gray-600 mt-2">{faq.answer}</p>
-          )}
-        </div>
-      ))}
+            <div key={index} className="mb-4">
+              <div
+                className="flex items-center justify-between cursor-pointer bg-[#ededfa] p-5 rounded-xl"
+                onClick={() => toggleFAQ(index)}
+              >
+                <p className="text-2xl font-semibold">{faq.question}</p>
+                {activeIndex === index ? (
+                  <IoMdClose className="w-6 h-6 text-gray-600" />
+                ) : (
+                  <IoIosArrowDown className="w-6 h-6 text-gray-600" />
+                )}
+              </div>
+              {activeIndex === index && (
+                <p className="text-gray-600 mt-2 text-lg font-semibold">{faq.answer}</p>
+              )}
+            </div>
+          ))}
     </div>
       </div>
     </>

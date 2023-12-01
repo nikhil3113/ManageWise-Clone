@@ -6,7 +6,7 @@ const Explore = () => {
   return (
     <>
       <div className="bg-[#1c1c1c] flex flex-col  justify-center items-center mt-10 w-full">
-        <div className="xl:w-[10%] xl:px-3 xl:mt-10 mt-14 mb-5 bg-white rounded-lg flex text-md font-sans">
+        <div className="xl:w-[10%] xl:px-3 xl:mt-36 mt-14 mb-5 bg-white rounded-lg flex text-md font-sans">
           <span>😍</span>
           <p className="ml-2 text-[#8247ff] font-semibold ">AND MORE!</p>
         </div>

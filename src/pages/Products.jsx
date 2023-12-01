@@ -1,7 +1,7 @@
 const Products = () => {
   return (
     <>
-      <div className="bg-[#00000] flex flex-col border border-b-0 justify-center items-center mb-10 " id="product">
+      <div className="bg-[#00000] flex flex-col  justify-center items-center mb-10 mt-32 " id="product">
         <div className="xl:w-[12%] xl:mt-28 mt-14 mb-5 bg-white rounded-lg flex text-md font-sans shadow-md">
           <span>🔥</span>
           <p className="ml-2 text-[#8247ff] font-semibold ">Premium Feature!</p>

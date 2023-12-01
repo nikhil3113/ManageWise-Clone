@@ -6,7 +6,7 @@ const Pricing = () => {
       <div className="xl:w-[7%] xl:mt-28 mt-14 mb-5 bg-white rounded-lg flex text-md font-sans  shadow-md">
         <span>💲</span><p className="ml-2 text-[#8247ff] font-semibold ">Pricing</p>
       </div>
-      <div className=" text-center xl:w-2/3 w-[90%] mt-26">
+      <div className=" text-center xl:w-2/3 w-[90%] mt-26 mb-14">
         <h1 className=" text-center text-6xl  font-semibold font-sans">Select your ideal <span className="text-[#fe8162]">Pricing</span> plan</h1>
         <p className="my-5 w-2/3 mx-auto text-center font-semibold text-xl text-gray-600">At Manage Wise, we believe in providing you with pricing plans that adapt to your unique needs.</p>
       </div>

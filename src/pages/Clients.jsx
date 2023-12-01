@@ -3,7 +3,7 @@ const Clients = () => {
   return (
     <>
     <div className='flex flex-col justify-center items-center mt-32'>
-    <div className="flex xl:flex-row flex-col shadow-lg xl:w-[80%]">
+    <div className="flex xl:flex-row flex-col shadow-lg xl:w-[80%]  rounded-3xl">
       <div className="bg-white flex flex-col justify-center items-center ">
         <div className="xl:w-[70%] xl:mt-28 mt-14 mb-5 bg-white rounded-lg flex text-md font-sans ">
           <span>👋</span>
@@ -23,8 +23,8 @@ const Clients = () => {
       </div>
 
       <div className="flex flex-col justify-center items-center xl:w-2/5 mt-7">
-        <div className="shadow-xl px-5 py-3 rounded-2xl">
-          <p className="text-2xl font-semibold "><span className="text-[#8247ff]">200+</span> Happy users</p>
+        <div className="shadow-xl px-5 py-3 rounded-2xl mb-7">
+          <p className="text-2xl font-semibold  "><span className="text-[#8247ff]">200+</span> Happy users</p>
         </div>
         <div>
           <img src={happy} alt="" />
