@@ -34,7 +34,7 @@ const NavBar = () => {
             <ul className="flex flex-col marker:text-slate-500 lg:flex-row lg:ml-auto text-black list-disc ">
               <li className="nav-item xl:mr-4">
                 <ScrollLink
-                  className="px-3 py-2 flex items-center text-lg  leading-snug  hover:opacity-75 cursor-pointer"
+                  className="px-3 py-2 flex items-center text-lg  leading-snug  hover:opacity-75 cursor-pointer hover:text-[#8247ff]"
                   to="product"  
                    spy={true}
                    smooth={true}
@@ -49,7 +49,7 @@ const NavBar = () => {
                spy={true}
                smooth={true}
                duration={500}
-                  className="px-3 py-2 flex items-center text-lg  leading-snug  hover:opacity-75 cursor-pointer"
+                  className="px-3 py-2 flex items-center text-lg  leading-snug  hover:opacity-75 cursor-pointer hover:text-[#8247ff]"
                 >
                   FAQ
                 </ScrollLink>
@@ -60,7 +60,7 @@ const NavBar = () => {
                    spy={true}
                    smooth={true}
                    duration={500}
-                   className="px-3 py-2 flex items-center text-lg leading-snug hover:opacity-75 cursor-pointer"
+                   className="px-3 py-2 flex items-center text-lg leading-snug hover:opacity-75 cursor-pointer hover:text-[#8247ff]"
                  
                 >
                   Pricing
