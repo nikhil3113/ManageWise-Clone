@@ -3,7 +3,7 @@ import TestimonialCard from "../components/TestimonialCard";
 const Testimonials = () => {
   return (
     <>
-      <div className="bg-white flex flex-col justify-start items-start mt-14 mb-5 px-10">
+      <div className="bg-white flex flex-col justify-start items-start mt-14 mb-5 px-10" id="testimonial">
         <div>
         <div className="xl:w-[15%] w-2/5 xl:mt-28  bg-white rounded-lg flex text-md font-sans shadow-md">
           <span>💓</span>

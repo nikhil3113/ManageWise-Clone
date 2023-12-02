@@ -66,6 +66,18 @@ const NavBar = () => {
                   Pricing
                 </ScrollLink>
               </li>
+              <li className="nav-item xl:mx-4">
+              <ScrollLink
+                   to="testimonial"  
+                   spy={true}
+                   smooth={true}
+                   duration={500}
+                   className="px-3 py-2 flex items-center text-lg leading-snug hover:opacity-75 cursor-pointer hover:text-[#8247ff]"
+                 
+                >
+                  Tertimonials
+                </ScrollLink>
+              </li>
                 <Link className="xl:mx-4">
                   <button className="text-xl bg-white py-2 rounded-lg px-2 font-semibold">
                     Buy Template

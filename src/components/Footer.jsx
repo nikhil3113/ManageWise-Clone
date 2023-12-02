@@ -1,6 +1,7 @@
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { Link as ScrollLink } from 'react-scroll';
 
 const Footer = () => {
   return (
@@ -13,9 +14,53 @@ const Footer = () => {
           </div>
           <div>
             <ul className="text-lg">
-              <li className="my-2">Features</li>
-              <li className="my-2"> FAQ </li>
-              <li className="my-2"> Pricing </li>
+              <li className="my-2">
+              <ScrollLink
+                   to="testimonial"  
+                   spy={true}
+                   smooth={true}
+                   duration={500}
+                   className="cursor-pointer hover:text-[#8247ff]"
+                 
+                >
+                  Features
+                </ScrollLink>
+              </li>
+              <li className="my-2"> 
+              <ScrollLink
+                   to="testimonial"  
+                   spy={true}
+                   smooth={true}
+                   duration={500}
+                   className="cursor-pointer hover:text-[#8247ff]"
+                 
+                >
+                  FAQ
+                </ScrollLink>
+               </li>
+              <li className="my-2"> 
+              <ScrollLink
+                   to="testimonial"  
+                   spy={true}
+                   smooth={true}
+                   duration={500}
+                   className="cursor-pointer hover:text-[#8247ff]"
+                >
+                  Pricing
+                </ScrollLink>
+               </li>
+               <li>
+               <ScrollLink
+                   to="testimonial"  
+                   spy={true}
+                   smooth={true}
+                   duration={500}
+                   className="cursor-pointer hover:text-[#8247ff]"
+                 
+                >
+                  Tertimonials
+                </ScrollLink>
+               </li>
             </ul>
           </div>
         </div>
